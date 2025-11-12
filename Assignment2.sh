@@ -1,3 +1,6 @@
+# THIS FILE IN IN CONSCRUTCTION MODE
+# THIS BASH SCRIPT IS NOT COMPLETE
+
 #!/bin/bash
 
 # Define users who need standard access
