@@ -48,8 +48,8 @@ startLiveTimer() {
                 # Rotate dots every second
                 case $((elapsed % 4)) in
                     0) DOTS="";;
-                    1) DOTS="."; 
-                    2) DOTS=".."; 
+                    1) DOTS=".";;
+                    2) DOTS="..";;
                     3) DOTS="...";;
                 esac
             fi
