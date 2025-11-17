@@ -335,8 +335,17 @@ createAllUsers() {
 }
 
 # MAIN EXECUTION
+
 startLiveTimer
 echo "INFO: SCRIPT STARTS" | tee -a "$logFile" 
+
+
+echo ""
+echo "TO CHECK MORE OF IT, PLEASE GO THROUGH 2 FILES WHICH WE MADE. A error File and a log file."
+echo ""
+echo "Please be patient, let us cast our magic on your system..."
+echo ""
+
 
 editingHostsFile                                  # Edits hosts
 netplanChange                                     # Changes netplan
