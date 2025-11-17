@@ -158,7 +158,7 @@ EOF"
     else
         echo "[ERROR] Netplan validation failed!"
     fi
-}
+
 
 
     echo "INFO: New netplan file exists at $newNetplanFile" | tee -a "$logFile"
