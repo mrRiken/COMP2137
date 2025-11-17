@@ -34,7 +34,7 @@ LOG ALL ACTIONS AND MAKE PROCESS SAFE TO RERUN
 COMMENT
 
 # -------------------------------
-# Start live runtime timer
+# Start live runtime timer, Totally not made by me.
 # -------------------------------
 startLiveTimer() {
     SECONDS=0
@@ -69,7 +69,7 @@ stopLiveTimer() {
 }
 
 # -------------------------------
-# task with long-feedback
+# task with long-feedback, tried but not working as expected
 # -------------------------------
 runTask() {
     local duration=$1   # Task simulated duration in seconds
@@ -96,7 +96,7 @@ stopLiveTimer() {
     echo -e "\nScript finished!"
 }
 
-
+# -----------------------------------     START OF SCRIPT, FOR REAL    ---------------------------------------
 #     LOG & ERROR FILE SETUP    
 errorFile="scriptErrorFile"
 logFile="scriptLogFile"
