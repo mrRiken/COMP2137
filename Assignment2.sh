@@ -34,7 +34,7 @@ LOG ALL ACTIONS AND MAKE PROCESS SAFE TO RERUN
 COMMENT
 
 # -------------------------------
-# Start live runtime timer, Totally not made by me.
+# Start live runtime timer
 # -------------------------------
 startLiveTimer() {
     SECONDS=0
@@ -64,8 +64,7 @@ startLiveTimer() {
 
 stopLiveTimer() {
     kill "$TIMER_PID" 2>/dev/null
-    wait "$TIMER_PID" 2>/dev/null
-    echo -e "\nScript finished!"
+    wait "$TIMER_PID" 2>/dev/null	
 }
 
 # -------------------------------
@@ -96,7 +95,7 @@ stopLiveTimer() {
     echo -e "\nScript finished!"
 }
 
-# -----------------------------------     START OF SCRIPT, FOR REAL    ---------------------------------------
+# -----------------------------------     START OF COMPONENETS REQUIRED BY SCRIPT, FOR REAL    ---------------------------------------
 #     LOG & ERROR FILE SETUP    
 errorFile="scriptErrorFile"
 logFile="scriptLogFile"
@@ -345,6 +344,5 @@ installPackages                                   # Installs packages
 runServices                                       # Starts services
 createAllUsers                                    # Creates users
 
-echo "---------------------------   DONE   ---------------------------------" >> $logFile
-echo "---------------------------   DONE   ---------------------------------" >> $errorFile
+echo "---------------------------   DONE   ---------------------------------" |  tee -a "$logFile" "$errorFile"
 stopLiveTimer
