@@ -1,0 +1,17 @@
+--2025-11-19 10:25:04--  https://github.com/zonzorp/COMP2137/raw/main/makecontainers.sh
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh [following]
+--2025-11-19 10:25:04--  https://raw.githubusercontent.com/zonzorp/COMP2137/main/makecontainers.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15594 (15K) [text/plain]
+Saving to: ‘/home/riken/makecontainers.sh’
+
+     0K .......... .....                                      100%  170M=0s
+
+2025-11-19 10:25:04 (170 MB/s) - ‘/home/riken/makecontainers.sh’ saved [15594/15594]
+
+Host server1-mgmt not found in /home/riken/.ssh/known_hosts
