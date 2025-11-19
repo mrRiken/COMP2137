@@ -1,6 +1,6 @@
 ---Host/Student info----
 
-Running on Wed Nov 19 10:55:03 AM EST 2025
+Running on Wed Nov 19 10:56:31 AM EST 2025
 Run by riken - () on host
  Static hostname: genric-vm
       Machine ID: 11883c4c64734bbabc2200c4d007f5dd
@@ -19,5 +19,12 @@ Network mgmt deleted
 Network lan created
 Network mgmt created
 Launching openwrt
-Retrieving image: Unpack: 100% (1.52GB/s)                                          Retrieving image: Unpack: 100% (1.52GB/s)                                          Launching server1
-Retrieving image: Unpack: 100% (2.41GB/s)Unable to create authorization object for operation: Authorization objects of type "project" require at most 0 components to be uniquely identifiable (interrupt two more times to force)                                                                                                                                                                                          
+Retrieving image: Unpack: 100% (1.65GB/s)                                          Retrieving image: Unpack: 100% (1.65GB/s)                                          Launching server1
+Retrieving image: Unpack: 100% (1.30GB/s)                                          Retrieving image: Unpack: 100% (1.30GB/s)                                          Pushing /home/riken/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (267.22MB/s)                                                                                                    Waiting for server1 restart
+# Host server1-mgmt found: line 2
+# Host server1-mgmt found: line 3
+# Host server1-mgmt found: line 4
+/home/riken/.ssh/known_hosts updated.
+Original contents retained as /home/riken/.ssh/known_hosts.old
+---Retrieving assignment2.sh script---
+Failed to retrieve assignment2.sh script using URL 'Assignment2.sh'
