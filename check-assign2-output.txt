@@ -1,24 +1,23 @@
 ---Host/Student info----
 
-Running on Wed Nov 19 10:25:04 AM EST 2025
+Running on Wed Nov 19 10:55:03 AM EST 2025
 Run by riken - () on host
- Static hostname: TUF-F15
-      Machine ID: 406c3680426545c38e4663a77e314e3b
+ Static hostname: genric-vm
+      Machine ID: 11883c4c64734bbabc2200c4d007f5dd
 Operating System: Ubuntu 24.04.3 LTS
 a98742121b14ebe6350c4bf8245d0062  ./check-assign2-script.sh - a98742121b14ebe6350c4bf8245d0062  -
 ------------------------
 
 ---Start of Assignment2.sh Check------
-Retrieved makecontainers.sh script
 ---Running makecontainers.sh----------
-Retrieving script library file
-
-User 'riken' added to incus and incusadmin groups.
--------WARNING-------
-In order to use this new permission, a new login shell is needed.
-Ubuntu GUI logout doesn't logout, 'pkill systemd' or a reboot is required to actually logout.
-Please reboot this vm and run this script again to finish making the containers.
----------------------
-
----Retrieving assignment2.sh script---
-Failed to retrieve assignment2.sh script using URL '/home/riken/COMP2137/Assignment2.sh'
+This script performs many tasks. Please be patient
+To see more about what it is doing as it does it, use the --verbose option
+You may ignore any messages about Open vSwitch or dpkg-preconfigure being unable to re-open stdin
+DO NOT use control-Z when this script is running.
+Network lan deleted
+Network mgmt deleted
+Network lan created
+Network mgmt created
+Launching openwrt
+Retrieving image: Unpack: 100% (1.52GB/s)                                          Retrieving image: Unpack: 100% (1.52GB/s)                                          Launching server1
+Retrieving image: Unpack: 100% (2.41GB/s)Unable to create authorization object for operation: Authorization objects of type "project" require at most 0 components to be uniquely identifiable (interrupt two more times to force)                                                                                                                                                                                          
